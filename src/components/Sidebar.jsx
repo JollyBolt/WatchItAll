@@ -7,7 +7,7 @@ const Sidebar = ({selectedCategory,setSelectedCategory}) => {
   return (
     <Stack
     direction="row"
-    className=' md:flex-col h-auto md:h-[95%] overflow-y-auto p-1'
+    className=' md:flex-col h-auto md:h-[95%] overflow-y-auto p-1 scrollbar-hide'
     >
         {
             categories.map((category, idx)=>(
