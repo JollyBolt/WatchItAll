@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 body{
-    background: #191919;
+    background: black;
+}
+
+@media screen and (min-width:968px) {
+    body{
+        background: #191919;
+    } 
 }
 
 .react-player{
