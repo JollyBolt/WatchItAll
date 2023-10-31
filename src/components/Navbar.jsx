@@ -10,7 +10,7 @@ const Navbar = () => {
     direction="row" 
     alignItems='center' 
  
-    className='sticky bg-black top-0 justify-between text-white rounded-xl p-3 px-10'>
+    className='sticky bg-black top-0 justify-between text-white md:rounded-xl p-3 px-10'>
         <Link 
         to='/' 
         className=' flex items-center'>

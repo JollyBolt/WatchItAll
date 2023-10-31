@@ -37,7 +37,7 @@ const ChannelDetail = () => {
   }, [id])
   return (
     <>
-      <Box className="h-[calc(100vh-128px)] bg-black mt-2 rounded-xl overflow-y-auto">
+      <Box className="h-[calc(100vh-105px)] bg-black mt-2 rounded-xl overflow-y-auto">
         <div className='w-full h-[200px] bg-gradient-to-r from-fuchsia-500 to-cyan-500 rounded-t-xl' />
         {
           loading

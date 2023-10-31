@@ -26,7 +26,7 @@ const SearchFeed = () => {
 
   return (
     <>
-      <Box className="bg-black h-[calc(100vh-128px)] flex-1 mt-2  rounded-xl p-3 overflow-y-auto">
+      <Box className="bg-black h-[calc(100vh-105px)] flex-1 mt-2  rounded-xl p-3 overflow-y-auto">
         <Typography >
           <span className='text-red-600 text-xl md:text-3xl font-extrabold'>
               Search Results for <span className='text-white'>"{searchTerm}"</span> Videos

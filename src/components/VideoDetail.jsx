@@ -38,7 +38,7 @@ const VideoDetail = () => {
   }, [id])
 
   if (!videoDetail?.snippet) return (
-    <Box className='flex bg-black h-[calc(100vh-128px)] mt-2  rounded-xl p-3 overflow-y-auto justify-center items-center '>
+    <Box className='flex bg-black h-[calc(100vh-105px)] mt-2  rounded-xl p-3 overflow-y-auto justify-center items-center '>
       <ScaleLoader
         loading={loading}
         color='white'
@@ -46,7 +46,7 @@ const VideoDetail = () => {
     </Box>
   )
   if(loading) return (
-    <Box className='flex bg-black h-[calc(100vh-128px)] mt-2  rounded-xl p-3 overflow-y-auto justify-center items-center '>
+    <Box className='flex bg-black h-[calc(100vh-105px)] mt-2  rounded-xl p-3 overflow-y-auto justify-center items-center '>
       <ScaleLoader
         loading={loading}
         color='white'
@@ -57,7 +57,7 @@ const VideoDetail = () => {
   const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail
 
   return (
-    <Box className="bg-black h-[calc(100vh-128px)] mt-2  rounded-xl p-3 overflow-y-auto">
+    <Box className="bg-black h-[calc(100vh-105px)] mt-2  rounded-xl p-3 overflow-y-auto">
        <Stack className='flex-col lg:flex-row md:justify-between p-4'>
             <Box className="w-full lg:w-[70vw] ">
               <Box className="w-full sticky top-4 justify-center">

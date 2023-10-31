@@ -23,13 +23,13 @@ const Feed = () => {
   },[selectedCategory])
   return (
     <Stack className='flex flex-col md:flex-row'>
-      <Box className="h-auto  md:h-[calc(100vh-128px)] mt-2 rounded-xl bg-black text-white p-2 flex flex-col">
+      <Box className="h-auto  md:h-[calc(100vh-105px)] md:mt-2 md:rounded-xl bg-black text-white p-2 flex flex-col">
         <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}/>
         <Typography variant='body2' className=' text-xs mt-2 justify-end p-2 hidden md:block'>
           @ Copyright 2023 Ishan Sen
         </Typography>
       </Box>
-      <Box className="bg-black h-auto md:h-[calc(100vh-128px)] flex-1 mt-2 md:ml-2 rounded-xl p-3 overflow-y-auto">
+      <Box className="bg-black h-auto md:h-[calc(100vh-105px)] flex-1 md:mt-2 md:ml-2 md:rounded-xl p-3 overflow-y-auto">
         <Typography >
           <span className='text-red-600 text-xl md:text-3xl font-extrabold'>
               <span className='text-white'>{selectedCategory}</span> Videos
