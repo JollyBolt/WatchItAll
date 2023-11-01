@@ -47,7 +47,6 @@ const Feed = () => {
           )
           :(<Videos videos={videos}/>)
         }
-        {/* <Videos videos={videos}/> */}
       </Box>
     </Stack>
   )

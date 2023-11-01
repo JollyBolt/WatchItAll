@@ -16,7 +16,7 @@ const Videos = ({videos}) => {
             className="text-white "
             >
                 {item.id.videoId && <VideoCard video={item} />}
-                {item.id.channelId && <ChannelCard channelDetail={item} />}
+                {item.id.channelId && <ChannelCard channelDetail={item} page="feed" />}
             </Box>
         ))
     }

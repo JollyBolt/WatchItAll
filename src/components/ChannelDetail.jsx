@@ -51,7 +51,7 @@ const ChannelDetail = () => {
             )
             : (<>
               <Box className='md:w-[358px] mx-auto -mt-[90px]'>
-                <ChannelCard channelDetail={channelDetail} />
+                <ChannelCard channelDetail={channelDetail} page="channel"/>
               </Box>
               <Videos videos={videos} />
             </>
