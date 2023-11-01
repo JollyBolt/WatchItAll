@@ -14,8 +14,8 @@ const Sidebar = ({selectedCategory,setSelectedCategory}) => {
                 <button 
                 key={idx}
                 onClick={()=>setSelectedCategory(category.name)}
-                className={`flex items-center ${category.name===selectedCategory?'bg-red-600':'hover:bg-red-500'} rounded-2xl  md:rounded-full p-3 md:p-3 m-1 group text-xs md:text-base`}>
-                    <span className={`mr-2 md:mr-4 ${category.name===selectedCategory?'text-white':'text-red-600'}  group-hover:text-white`}>
+                className={`flex items-center ${category.name===selectedCategory?'bg-gradient-to-r from-red-600 to-red-900':'hover:bg-red-500'} rounded-2xl   p-3 md:p-3 m-1 group text-xs md:text-base`}>
+                    <span className={`mr-2 md:mr-4 ${category.name===selectedCategory?'text-white':'text-red-600'} transition-all group-hover:text-white`}>
                         {category.icon}
                     </span>
                     <span>
