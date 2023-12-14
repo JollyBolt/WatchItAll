@@ -2,8 +2,7 @@
 ## Demo
 
 This project is deployed [here](https://watchitall-ishan.netlify.app/).
-<br>
-<br>
+
 
 <h1 align=center><b>Watch It All</b></h1>
 <p align="center"><img  src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"  />
