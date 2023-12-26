@@ -14,10 +14,10 @@ This project is deployed [here](https://watchitall-ishan.netlify.app/).
 Watch It All is a dynamic and responsive web application developed using React.js, Tailwind CSS, and Material UI. It provides a seamless and engaging user experience for discovering and watching YouTube videos. The application leverages the power of the 'YouTube v3' API from RapidAPI, offering a rich feature set for users to explore, search, and view videos with ease.
 <br>
 
-<img width="49%" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/0a526d4a-ff77-43b3-926d-3f7d79a9d78b" />
-<img width="49%" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/30dca314-2825-4493-962b-ac0b281a7508" />
+<img width="80%" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/0a526d4a-ff77-43b3-926d-3f7d79a9d78b" />
+<img width="80%" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/30dca314-2825-4493-962b-ac0b281a7508" />
 
-<img width="70%" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/f0350ece-85ff-414a-ac98-e08a9ebe24a1" />
+<img width="80%" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/f0350ece-85ff-414a-ac98-e08a9ebe24a1" />
 <img height="300" src="https://github.com/JollyBolt/WatchItAll/assets/68071708/32d99083-38b9-4e5f-bfd4-d96f3995ae70" />
 
 ## Features
