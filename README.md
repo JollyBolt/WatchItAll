@@ -3,7 +3,9 @@
 
 This project is deployed [here](https://watchitall-ishan.netlify.app/).
 
-
+<p align="center">
+<img height="200" src="https://github.com/JollyBolt/iNotes/assets/68071708/0e1820e2-387f-4a30-84d7-4afb22512e7d" />
+</p>
 <h1 align=center><b>Watch It All</b></h1>
 <p align="center"><img  src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"  />
 <img  src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"  />
