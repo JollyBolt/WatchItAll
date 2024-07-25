@@ -1,7 +1,7 @@
 
 ## Demo
 
-This project is deployed [here](https://watchitall-ishan.netlify.app/).
+This project is deployed [here](https://watch-it-all.ishansen.in/).
 
 <p align="center">
 <img height="200" src="https://github.com/JollyBolt/iNotes/assets/68071708/0e1820e2-387f-4a30-84d7-4afb22512e7d" />
